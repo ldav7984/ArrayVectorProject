@@ -7,8 +7,34 @@
 //
 
 #include "Controller.hpp"
+#include <vector>
+
+Controller :: Controller()
+{
+    std::vector<int> intVector;
+    std::vector<string> stringVector;
+}
 
 void Controller :: start()
 {
+    usingVector();
+    printingVector();
+    copyVectorToArray();
     cout << "This is my vector and array project." << endl;
 }
+
+void Controller :: usingVector()
+{
+    
+}
+
+void Controller :: printingVector()
+{
+    
+}
+
+void Controller :: copyVectorToArray()
+{
+    
+}
+

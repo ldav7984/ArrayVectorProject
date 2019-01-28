@@ -10,13 +10,21 @@
 #define Controller_hpp
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class Controller
 {
+private:
+    vector<int> intVector;
+    vector<string> stringVector;
     
 public:
+    Controller();
     void start();
+    void usingVector();
+    void printingVector();
+    void copyVectorToArray();
 };
 
 
