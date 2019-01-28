@@ -25,7 +25,7 @@ void Controller :: start()
 
 void Controller :: usingVector()
 {
-    
+    intVector.assign(5, 20); //5 ints with a value of 10
 }
 
 void Controller :: printingVector()
@@ -33,14 +33,14 @@ void Controller :: printingVector()
     std::cout << "The contents of the vector are: ";
     for (std::vector<int>::iterator index = intVector.begin(); index != intVector.end(); index += 1)
     {
-        std::cout << ' ' << * index;
+        std::cout << ' ' << *index;
         
     }
     std::cout << '\n';
     
     for (std::vector<string>::iterator index = stringVector.begin(); index != stringVector.end(); index += 1)
     {
-        std::cout << ' ' << * index;
+        std::cout << ' ' << *index;
         
     }
     std::cout << '\n';
