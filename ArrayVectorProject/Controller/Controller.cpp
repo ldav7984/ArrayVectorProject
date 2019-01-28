@@ -30,7 +30,21 @@ void Controller :: usingVector()
 
 void Controller :: printingVector()
 {
+    std::cout << "The contents of the vector are: ";
+    for (std::vector<int>::iterator index = intVector.begin(); index != intVector.end(); index += 1)
+    {
+        std::cout << ' ' << * index;
+        
+    }
+    std::cout << '\n';
     
+    for (std::vector<string>::iterator index = stringVector.begin(); index != stringVector.end(); index += 1)
+    {
+        std::cout << ' ' << * index;
+        
+    }
+    std::cout << '\n';
+   
 }
 
 void Controller :: copyVectorToArray()
